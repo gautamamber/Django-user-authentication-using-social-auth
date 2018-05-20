@@ -3,7 +3,11 @@ import os
 import sys
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")
+=======
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "socialauth.settings")
+>>>>>>> f01294b596ea0eb0f6bba36aa8de2a30f5e94449
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
